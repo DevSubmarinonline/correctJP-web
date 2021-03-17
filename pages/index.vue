@@ -9,7 +9,8 @@
         ></textarea>
         <textarea
             class="w-2/5 mx-4 mr-auto p-4 flex-grow rounded-lg bg-paper-gray shadow-md hover:shadow-lg focus:outline-none"
-            placeholder="怪レい日本语が出力され、\n贵樣はクリックしてコピーずゑことがてきゑ！"
+            placeholder='怪レい日本语が出力され、
+贵樣はクリックしてコピーずゑことがてきゑ！'
             v-model="result"
             @click="clipResult"
             @keyup.space="clipResult"
